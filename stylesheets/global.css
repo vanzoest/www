@@ -1,0 +1,103 @@
+/*
+   $Id$
+*/
+
+body {
+  /* top, right, bottom, left */
+  margin: 2em 1em 1em 1em;
+  font-family: sans-serif;
+  color: black;
+  background: white;
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+a:link { 
+  color: blue;
+  background: transparent;
+  text-decoration: underline; 
+}
+a:visited { 
+  color: blue;
+  background: transparent;
+  text-decoration: underline; 
+}
+a:active { 
+  color: blue;
+  background: transparent;
+  text-decoration: underline; 
+}
+
+h2, h3, h4, h5, h6 { text-align: left }
+/* background should be transparent, but WebTV has a bug */
+h1, h2, h3 { color: red; background: white }
+h1 { font: 170% sans-serif; text-align: center; }
+h2 { font: 140% sans-serif }
+h3 { font: 120% sans-serif }
+h4 { font: bold 100% sans-serif }
+h5 { font: italic 100% sans-serif }
+h6 { font: small-caps 100% sans-serif }
+
+.hide { display: none }
+
+div.head { margin-bottom: 1em }
+div.head 
+h1 { margin-top: 2em; clear: both }
+div.head table { margin-left: 2em; margin-top: 2em }
+div.head img { color: white; border: none } /* remove border from top image */
+div#menu > img {
+   border: 0;
+}
+div#menu {
+   text-align: center;
+}
+.copyright { font-size: small }
+.copyright small { font-size: small }
+
+#footer {
+  text-align: right;
+}
+
+pre { margin-left: 2em }
+
+dt, dd { 
+  margin-top: 0; 
+  margin-bottom: 0 
+} /* opera 3.50 */
+
+pre, code { font-family: monospace } /* navigator 4 requires this */
+
+ul.toc {
+  list-style: disc;		/* Mac NS has problem with 'none' */
+  list-style: none;
+}
+
+@media aural {  
+  h1, h2, h3 { stress: 20; richness: 90 }
+  .hide { speak: none }
+  p.copyright { volume: x-soft; speech-rate: x-fast }
+  dt { pause-before: 20% }
+  pre { speak-punctuation: code } 
+}
+
+@media screen {  
+  /* hide from IE3 */
+  a[href]:hover { 
+    color: white;
+    background: blue;
+    text-decoration:underline;
+  }
+  abbr, acronym, .explanation {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+  }
+}
+@media print {
+/*
+  abbr, acronym, .explanation {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+  }
+*/
+}

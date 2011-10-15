@@ -1,0 +1,15 @@
+## Clicked on the Head
+circle /ries/ 71,70 108,84 
+## Clicked on the head
+circle /leida/ 276,74 293,108 
+##Clicked on the head
+circle /rik/ 266,302 292,332 
+##clicked on the head
+circle /sander/ 91,298 126,322 
+poly mailto:ries%40vanzoest.com%20%28Ries%20van%20Zoest%29 47,17 20,34 29,47 59,28 46,17 
+poly mailto:leida%40vanzoest.com%20%28Leida%20van%20Zoest%29 292,14 329,40 317,57 275,29 291,13 291,13 
+poly mailto:rik%40vanzoest.com%20%28Rik%20van%20Zoest%29 305,317 276,343 284,356 319,328 304,317 
+poly mailto:sander%40vanzoest.com%20%28Sander%20van%20Zoest%29 42,307 89,345 79,359 31,325 43,308 
+rect /dssd/ 124,1 226,74 
+poly /family/ 112,76 232,77 283,137 278,254 236,261 217,301 235,344 303,364 303,401 59,401 59,360 117,361 142,288 74,232 62,111 105,103 114,77 114,77 116,78 
+default /

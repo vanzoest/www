@@ -1,0 +1,7 @@
+# robots.txt for
+# For more info see:
+# - http://www.robotstxt.org/wc/norobots.html
+
+User-agent: *
+Disallow: /cgi-bin/    # This is an infinite virtual URL space
+Disallow: /graphics/   # Graphics Directory
